@@ -15,4 +15,4 @@ podman rm "${container_id}"
 
 
 echo "### BUILDING RUN-CONTAINER ###"
-podman build -f run.Containerfile --build-arg=build_container=${build_container} -t ${project_name}:latest .
+podman build -f run.Containerfile --build-arg=build_container=${build_container} -t ${project_name}:local .
