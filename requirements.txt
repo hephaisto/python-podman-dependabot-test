@@ -23,7 +23,7 @@ attrs==26.1.0
     # via aiohttp
 bidict==0.23.1
     # via python-socketio
-certifi==2026.2.25
+certifi==2026.2.24
     # via
     #   httpcore
     #   httpx
