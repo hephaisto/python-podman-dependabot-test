@@ -2,9 +2,9 @@
 #    uv pip compile /src/pyproject.toml -o /lockfiles/dependencies.lock
 aiofiles==25.1.0
     # via nicegui
-aiohappyeyeballs==2.6.0
+aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.4
+aiohttp==3.13.5
     # via
     #   nicegui
     #   python-socketio
