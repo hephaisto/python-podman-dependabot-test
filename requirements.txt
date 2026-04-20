@@ -28,7 +28,7 @@ certifi==2026.2.25
     #   httpcore
     #   httpx
     #   nicegui
-click==8.3.0
+click==8.3.2
     # via uvicorn
 docutils==0.22.4
     # via nicegui
@@ -81,9 +81,9 @@ propcache==0.4.1
     # via
     #   aiohttp
     #   yarl
-pydantic==2.13.2
+pydantic==2.13.3
     # via fastapi
-pydantic-core==2.46.2
+pydantic-core==2.46.3
     # via
     #   nicegui
     #   pydantic
