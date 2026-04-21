@@ -50,7 +50,7 @@ httptools==0.7.1
     # via uvicorn
 httpx==0.28.1
     # via nicegui
-idna==3.11
+idna==3.12
     # via
     #   anyio
     #   httpx
@@ -118,7 +118,7 @@ typing-inspection==0.4.2
     # via
     #   fastapi
     #   pydantic
-uvicorn==0.44.0
+uvicorn==0.45.0
     # via nicegui
 uvloop==0.22.1
     # via uvicorn
