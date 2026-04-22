@@ -23,12 +23,12 @@ attrs==26.1.0
     # via aiohttp
 bidict==0.23.1
     # via python-socketio
-certifi==2026.2.25
+certifi==2026.4.22
     # via
     #   httpcore
     #   httpx
     #   nicegui
-click==8.3.2
+click==8.3.3
     # via uvicorn
 docutils==0.22.4
     # via nicegui
@@ -50,7 +50,7 @@ httptools==0.7.1
     # via uvicorn
 httpx==0.28.1
     # via nicegui
-idna==3.12
+idna==3.13
     # via
     #   anyio
     #   httpx
