@@ -4,4 +4,4 @@ COPY ./requirements.txt /requirements.txt
 COPY --from=${build_container} /out/*.whl /wheels/
 RUN python -m pip install --no-deps -r /requirements.txt
 RUN python -m pip install --no-deps /wheels/*.whl
-ENTRYPOINT run-web-ui
+ENTRYPOINT ["run-web-ui"]
