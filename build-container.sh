@@ -11,7 +11,7 @@ echo "### BUILDING WHEEL ###"
 mkdir -p tmp/wheels
 rm -rf tmp/wheels/*
 build_container="build-${project_name}:latest"
-podman build ${cache_flags} -f build.Containerfile -t ${build_container} .
+podman build -f build.Containerfile -t ${build_container} .
 container_id=$(podman create ${build_container})
 podman cp "${container_id}:/out" ./tmp/wheels
 podman rm "${container_id}"
