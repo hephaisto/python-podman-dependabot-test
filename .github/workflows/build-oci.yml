@@ -61,7 +61,7 @@ jobs:
 
       - name: Build OCI image
         run: |
-          ./build-container.sh "--cache-from ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}"
+          ./build-container.sh "--cache-from=ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }} --cache-to=ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}"
           LOCAL_IMAGE="${{ env.IMAGE_NAME }}:local"
           # Retag local image into all required tags
           podman tag "$LOCAL_IMAGE" "${{ steps.vars.outputs.sha_tag }}"
