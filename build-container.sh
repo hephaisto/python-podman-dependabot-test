@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 set -x
+
+cache_flags=$1
+
 scriptdir=$(cd $(dirname $0) && pwd)
 project_name=$(basename "$scriptdir")
 
@@ -15,4 +18,4 @@ podman rm "${container_id}"
 
 
 echo "### BUILDING RUN-CONTAINER ###"
-podman build -f run.Containerfile --build-arg=build_container=${build_container} -t ${project_name}:local .
+podman build ${cache_flags} -f run.Containerfile --build-arg=build_container=${build_container} -t ${project_name}:local .
