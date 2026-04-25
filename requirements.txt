@@ -62,7 +62,9 @@ itsdangerous==2.2.0
 jinja2==3.1.6
     # via nicegui
 lxml==6.1.0
-    # via lxml-html-clean
+    # via
+    #   lxml-html-clean
+    #   nicegui
 lxml-html-clean==0.4.4
     # via nicegui
 markdown2==2.5.5
@@ -90,7 +92,9 @@ pydantic-core==2.46.3
 pygments==2.20.0
     # via nicegui
 python-dotenv==1.2.2
-    # via uvicorn
+    # via
+    #   nicegui
+    #   uvicorn
 python-engineio==4.13.1
     # via
     #   nicegui
@@ -107,6 +111,8 @@ starlette==1.0.0
     # via
     #   fastapi
     #   nicegui
+tinycss2==1.5.1
+    # via nicegui
 typing-extensions==4.15.0
     # via
     #   fastapi
@@ -126,6 +132,8 @@ watchfiles==1.1.1
     # via
     #   nicegui
     #   uvicorn
+webencodings==0.5.1
+    # via tinycss2
 websockets==16.0
     # via uvicorn
 wsproto==1.3.2
