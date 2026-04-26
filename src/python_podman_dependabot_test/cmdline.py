@@ -1,6 +1,7 @@
 import argparse
 
 from nicegui import ui
+from .main import *
 
 def parse_args():
     parser = argparse.ArgumentParser()
