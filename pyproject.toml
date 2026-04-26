@@ -24,7 +24,7 @@ dependencies = [
 source = "https://github.com/hephaisto/python-podman-dependabot-test"
 
 [project.scripts]
-run-web-ui = "python_podman_dependabot_test.main:main"
+run-web-ui = "python_podman_dependabot_test.cmdline:main"
 
 [tool.hatch.version]
 source = "vcs"
