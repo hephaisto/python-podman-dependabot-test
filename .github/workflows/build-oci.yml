@@ -76,6 +76,9 @@ jobs:
             podman tag "$LOCAL_IMAGE" "${{ steps.vars.outputs.semver_minor }}"
           fi
 
+      - name: Run smoke test in image
+        run: ./test-ci.sh
+
       - name: Push tags
         run: |
           # Always push SHA tag
