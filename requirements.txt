@@ -75,7 +75,7 @@ multidict==6.7.1
     # via
     #   aiohttp
     #   yarl
-nicegui==3.11.0
+nicegui==3.11.1
     # via python-podman-dependabot-test (src/pyproject.toml)
 orjson==3.11.8
     # via nicegui
@@ -99,7 +99,7 @@ python-engineio==4.13.1
     # via
     #   nicegui
     #   python-socketio
-python-multipart==0.0.26
+python-multipart==0.0.27
     # via nicegui
 python-socketio==5.16.1
     # via nicegui
