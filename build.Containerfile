@@ -1,6 +1,7 @@
 FROM docker.io/library/python:latest
 ENV SOURCE_DATE_EPOCH=1700000000
-COPY . /src
 RUN python -m pip install build
-RUN python -m pip install --no-deps -r /src/requirements.txt
+COPY ./requirements.txt /requirements.txt
+RUN python -m pip install --no-deps -r /requirements.txt
+COPY . /src
 RUN python -m build --skip-dependency-check --outdir /out /src
