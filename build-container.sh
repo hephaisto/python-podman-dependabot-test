@@ -19,3 +19,6 @@ podman rm "${container_id}"
 
 echo "### BUILDING RUN-CONTAINER ###"
 podman build ${cache_flags} -f run.Containerfile --build-arg=build_container=${build_container} -t ${project_name}:local .
+
+echo "### BUILDING TEST-CONTAINER ###"
+podman build -f test.Containerfile --build-arg=build_container=${build_container} -t ${project_name}:local-test .

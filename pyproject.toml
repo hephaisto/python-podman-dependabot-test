@@ -20,6 +20,11 @@ dependencies = [
     "nicegui",
 ]
 
+[project.optional-dependencies]
+test = [
+    "pytest-playwright",
+]
+
 [project.urls]
 source = "https://github.com/hephaisto/python-podman-dependabot-test"
 
