@@ -77,7 +77,7 @@ jobs:
           fi
 
       - name: Run smoke test in image
-        run: ./test-ci.sh
+        run: ./test.sh
 
       - name: Push tags
         run: |
