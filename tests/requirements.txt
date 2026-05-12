@@ -55,7 +55,7 @@ httptools==0.7.1
     # via uvicorn
 httpx==0.28.1
     # via nicegui
-idna==3.14
+idna==3.15
     # via
     #   anyio
     #   httpx
@@ -83,7 +83,7 @@ multidict==6.7.1
     # via
     #   aiohttp
     #   yarl
-nicegui==3.11.1
+nicegui==3.12.0
     # via python-podman-dependabot-test (src/pyproject.toml)
 orjson==3.11.9
     # via nicegui
