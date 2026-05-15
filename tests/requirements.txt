@@ -133,7 +133,7 @@ python-socketio==5.16.1
     # via nicegui
 pyyaml==6.0.3
     # via uvicorn
-requests==2.34.1
+requests==2.34.2
     # via pytest-base-url
 simple-websocket==1.1.0
     # via python-engineio
