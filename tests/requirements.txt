@@ -31,7 +31,7 @@ certifi==2026.4.22
     #   requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.3
+click==8.4.0
     # via uvicorn
 docutils==0.22.4
     # via nicegui
@@ -69,7 +69,7 @@ itsdangerous==2.2.0
     # via nicegui
 jinja2==3.1.6
     # via nicegui
-lxml==6.1.0
+lxml==6.1.1
     # via
     #   lxml-html-clean
     #   nicegui
@@ -89,7 +89,7 @@ orjson==3.11.9
     # via nicegui
 packaging==26.2
     # via pytest
-playwright==1.59.0
+playwright==1.60.0
     # via pytest-playwright
 pluggy==1.6.0
     # via pytest
@@ -115,7 +115,7 @@ pytest==9.0.3
     #   pytest-playwright
 pytest-base-url==2.1.0
     # via pytest-playwright
-pytest-playwright==0.7.2
+pytest-playwright==0.8.0
     # via python-podman-dependabot-test (src/pyproject.toml)
 python-dotenv==1.2.2
     # via
@@ -125,7 +125,7 @@ python-engineio==4.13.1
     # via
     #   nicegui
     #   python-socketio
-python-multipart==0.0.28
+python-multipart==0.0.29
     # via nicegui
 python-slugify==8.0.4
     # via pytest-playwright
@@ -163,7 +163,7 @@ uvicorn==0.47.0
     # via nicegui
 uvloop==0.22.1
     # via uvicorn
-watchfiles==1.1.1
+watchfiles==1.2.0
     # via
     #   nicegui
     #   uvicorn
