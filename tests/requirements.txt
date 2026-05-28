@@ -55,7 +55,7 @@ httptools==0.8.0
     # via uvicorn
 httpx==0.28.1
     # via nicegui
-idna==3.16
+idna==3.17
     # via
     #   anyio
     #   httpx
@@ -137,7 +137,7 @@ requests==2.34.2
     # via pytest-base-url
 simple-websocket==1.1.0
     # via python-engineio
-starlette==1.1.0
+starlette==1.2.0
     # via
     #   fastapi
     #   nicegui
