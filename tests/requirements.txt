@@ -35,7 +35,7 @@ click==8.4.2
     # via uvicorn
 docutils==0.23
     # via nicegui
-fastapi==0.138.1
+fastapi==0.138.2
     # via nicegui
 frozenlist==1.8.0
     # via
@@ -89,7 +89,7 @@ orjson==3.11.9
     # via nicegui
 packaging==26.2
     # via pytest
-playwright==1.60.0
+playwright==1.61.0
     # via pytest-playwright
 pluggy==1.6.0
     # via pytest
