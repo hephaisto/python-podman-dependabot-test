@@ -87,7 +87,7 @@ nicegui==3.15.0
     # via python-podman-dependabot-test (src/pyproject.toml)
 orjson==3.11.9
     # via nicegui
-packaging==26.2
+packaging==26.3
     # via pytest
 playwright==1.62.0
     # via pytest-playwright
