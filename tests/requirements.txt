@@ -29,7 +29,7 @@ certifi==2026.7.22
     #   httpx
     #   nicegui
     #   requests
-charset-normalizer==3.4.9
+charset-normalizer==3.5.0
     # via requests
 click==8.4.2
     # via uvicorn
@@ -83,9 +83,9 @@ multidict==6.7.1
     # via
     #   aiohttp
     #   yarl
-nicegui==3.15.0
+nicegui==3.16.0
     # via python-podman-dependabot-test (src/pyproject.toml)
-orjson==3.11.9
+orjson==3.12.0
     # via nicegui
 packaging==26.3
     # via pytest
@@ -121,7 +121,7 @@ python-dotenv==1.2.2
     # via
     #   nicegui
     #   uvicorn
-python-engineio==4.13.4
+python-engineio==4.13.5
     # via
     #   nicegui
     #   python-socketio
@@ -153,13 +153,13 @@ typing-extensions==4.16.0
     #   pydantic-core
     #   pyee
     #   typing-inspection
-typing-inspection==0.4.3
+typing-inspection==0.4.4
     # via
     #   fastapi
     #   pydantic
 urllib3==2.7.0
     # via requests
-uvicorn==0.52.1
+uvicorn==0.52.3
     # via nicegui
 uvloop==0.22.1
     # via uvicorn
