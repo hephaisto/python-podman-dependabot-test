@@ -89,7 +89,7 @@ orjson==3.12.0
     # via nicegui
 packaging==26.3
     # via pytest
-playwright==1.62.0
+playwright==1.63.0
     # via pytest-playwright
 pluggy==1.6.0
     # via pytest
@@ -129,7 +129,7 @@ python-multipart==0.0.32
     # via nicegui
 python-slugify==9.0.0
     # via pytest-playwright
-python-socketio==5.16.4
+python-socketio==5.17.0
     # via nicegui
 pyyaml==6.0.3
     # via uvicorn
