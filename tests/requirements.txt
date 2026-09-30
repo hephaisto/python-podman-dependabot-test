@@ -74,7 +74,7 @@ markdown2==2.5.5
     # via nicegui
 markupsafe==3.0.3
     # via jinja2
-multidict==6.9.1
+multidict==7.0.0
     # via
     #   aiohttp
     #   yarl
@@ -94,7 +94,7 @@ propcache==0.5.4
     #   yarl
 pydantic==2.13.5
     # via fastapi
-pydantic-core==2.46.5
+pydantic-core==2.49.0
     # via
     #   nicegui
     #   pydantic
@@ -122,7 +122,7 @@ python-engineio==4.14.0
     #   python-socketio
 python-multipart==0.0.32
     # via nicegui
-python-slugify==8.0.4
+python-slugify==9.1.2
     # via pytest-playwright
 python-socketio==5.17.0
     # via nicegui
